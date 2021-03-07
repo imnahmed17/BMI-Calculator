@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>BMI Calculator</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+    <body background="bg1.jpeg">
+        <div class="card" style="margin: 30px auto 100px;">          
+            <div class="card-body">
+                <h1 style="color: rgb(0, 140, 255);float: left;">BMI Calculator</h1>
+                <a href="about.html"  class="btn btn-primary" >About BMI Calculator</a>
+            </div>
+        </div>
+        <div id="container" style="margin: 5px auto 150px;">
+            <div id="calculator">
+                <h2>CALCULATE</h2>
+                <input type="text" name="bmi" id="weight" placeholder="Weight In KG">
+                <input type="text" name="bmi" id="feet" placeholder="Height In FT">
+                <input type="text" name="bmi" id="inch" placeholder="Height In IN">
+                <input type="submit" value="Calculate" id="calculate">
+                <div id="yourBMI">Your BMI Is : <span>00</span></div>
+            </div>
+            <div id="guide">
+                <h2>GUIDE</h2>
+                <ul>
+                    <li>Under Weight = Less Then 18.5 BMI</li>
+                    <li>Normal = 18.5 To 24.9 BMI</li>
+                    <li>Over Weight = 25 To 29.9 BMI</li>
+                    <li>Obesity = 30 Or Greater BMI</li>
+                </ul>
+            </div>
+        </div>
+        <script src="js/files.js"></script>
+    </body>
+</html>
