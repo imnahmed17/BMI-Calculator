@@ -1,2 +1,3 @@
 # BMI-Calculator
-This project is for calculating BMI
+
+live link: https://cerulean-cat-ac2e5d.netlify.app/
