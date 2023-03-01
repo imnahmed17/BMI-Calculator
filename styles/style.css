@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Exo', sans-serif;
+}
+
+body {
+    background-image: url(../images/bg1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+.top-left-border {
+    border-top-left-radius: 50px;
+}
+
+.bottom-right-border {
+    border-bottom-right-radius: 50px;
+}
+
+.bmi-card {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+}
+
+.bmi-calculation,
+.bmi-guide {
+    width: 25vw;
+}
+
+.common-text-style {
+    text-align: justify;
+}
+
+@media screen and (max-width: 576px) {
+    .top-left-border {
+        border-top-left-radius: 20px;
+    }
+    
+    .bottom-right-border {
+        border-bottom-right-radius: 20px;
+    }
+
+    .bmi-card {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .bmi-calculation,
+    .bmi-guide {
+        width: 94vw;
+    }
+}

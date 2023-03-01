@@ -1,43 +1,44 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BMI Calculator</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="styles/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
-    <body background="bg1.jpeg">
-        <div class="card" style="margin: 30px auto 40px;">          
-            <div class="card-body">
-                <h1 style="color: rgb(0, 140, 255);float: left;">BMI Calculator</h1>
+    <body>
+        <header class="container my-5">
+            <div class="card">          
+                <div class="card-body">
+                    <h1 class="text-primary">BMI Calculator</h1>
+                </div>
             </div>
-        </div>
-        
-        <div style="width: 90%; margin: 2px auto 100px;">
-            <h2>Body Mass Index (BMI)</h2>
-            <p style="text-align: justify;">
-            BMI is a useful measure of overweight and obesity. It is calculated from your height and weight. BMI is an estimate of 
-            body fat and a good gauge of your risk for diseases that can occur with more body fat. The higher your BMI, the higher 
-            your risk for certain diseases such as heart disease, high blood pressure, type 2 diabetes, gallstones, breathing problems, 
-            and certain cancers. </br> </br>
-            Although BMI can be used for most men and women, it does have some limits:
+        </header>
+        <main class="container">
+            <div>
+                <h2>Body Mass Index (BMI)</h2>
+                <p class="common-text-style">BMI is a useful measure of overweight and obesity. It is calculated from your height and weight. BMI is an estimate of body fat and a good gauge of your risk for diseases that can occur with more body fat. The higher your BMI, the higher your risk for certain diseases such as heart disease, high blood pressure, type 2 diabetes, gallstones, breathing problems, and certain cancers.</p>
+                <p>Although BMI can be used for most men and women, it does have some limits:
+                    <ul>
+                        <li>It may overestimate body fat in athletes and others who have a muscular build.</li>
+                        <li>It may underestimate body fat in older persons and others who have lost muscle.</li>
+                    </ul>
+                </p>
+
+                <h2>Calculate Your Body Mass Index</h2>
+                <p class="common-text-style">Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. Enter your weight and height using standard or metric measures. Tap "Calculate" button and your BMI will appear below.</p>
+
+                <h4>BMI Categories:</h4>
                 <ul>
-                    <li>It may overestimate body fat in athletes and others who have a muscular build.</li>
-                    <li>It may underestimate body fat in older persons and others who have lost muscle.</li>
+                    <li><span class="fw-bold">Underweight:</span> <18.5</li>
+                    <li><span class="fw-bold">Normal weight:</span> 18.5to 24.9 BMI</li>
+                    <li><span class="fw-bold">Overweight:</span> 25 to 29.9 BMI</li>
+                    <li><span class="fw-bold">Obesity:</span> 30 or Greater BMI</li>
                 </ul>
-            
-            </p>
-            <h2>Calculate Your Body Mass Index</h2>
-            <p style="text-align: justify;">
-            Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. 
-            Enter your weight and height using standard or metric measures. Select "Compute BMI" and your BMI will appear below. </br>
-            <strong style="font-size: large;">BMI Categories:</strong> </br>
-            Underweight = <18.5 </br>
-            Normal weight = 18.5to 24.9 BMI </br>
-            Overweight = 25 to 29.9 BMI </br>
-            Obesity = 30 or Greater BMI
-            </p>
-        </div> 
+            </div> 
+        </main>
     </body>
 </html>
